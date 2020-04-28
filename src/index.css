@@ -5,9 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Comment{
+  position: relative;
+  top:30px;
+  left:50px;
+  height:200px;
+  width: 300px;
+  border: 1px solid #888888;
+  box-shadow:  5px 4px 5px #888888;
+  padding:10px;
+}
+.UserInfo,.Comment-text, .Comment-date{
+  position: relative;
+  top:10px;
+  left:10px;
+}
+.UserInfo-name{
+  position: relative;
+  top:5px;
+  left:0px;
+}
+.Comment .label{
+margin:5px 0px;
+display: inline-block;
+}
+
+
